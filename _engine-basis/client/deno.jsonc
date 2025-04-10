@@ -1,5 +1,5 @@
 {
-  "compilerOptions": {   
+  "compilerOptions": {
     "lib": [
       "deno.window",
       "webworker",
@@ -10,6 +10,7 @@
   "imports": {
     "@main": "./main.ts",
     "~/": "./",
-    "~/libs/": "./libs/"
+    "~/libs/": "./libs/",
+    "@ascii": "./libs/bytes/ascii/ascii.ts"
   }
 }

@@ -1,5 +1,5 @@
-import { ascii } from "~/libs/bytes//ascii/ascii.ts";
-import { u16, u32, u8 } from "~/libs/bytes/byte-reader/byte-reader.ts";
+import { ascii } from "@ascii";
+import { u16, u32, u8 } from "../byte-reader/byte-reader.ts";
 
 /*
   Nota Bene:

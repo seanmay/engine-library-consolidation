@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "@main": "/main.js",
+    "~/": "/",
+    "~/libs/": "/libs/",
+    "$ascii": "/libs/bytes/ascii/ascii.js"
+  }
+}

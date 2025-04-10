@@ -1,7 +1,0 @@
-{
-  "imports": {
-    "@main": "/main.js",
-    "~/": "/",
-    "~/libs/": "/libs/"
-  }
-}
