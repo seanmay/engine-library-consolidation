@@ -1,0 +1,15 @@
+{
+  "nodeModulesDir":true,
+  "compilerOptions": {
+    "exactOptionalPropertyTypes": true,
+    "jsx": "react-jsx",
+  },
+  "imports": {
+    "swc": "npm:@swc/cli"
+  },
+  "tasks": {
+    "dev": {
+      "command": "swc client -d dist -D"
+    }
+  }
+}

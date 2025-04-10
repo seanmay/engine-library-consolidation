@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {   
+    "lib": [
+      "deno.window",
+      "webworker",
+      "dom",
+      "esnext"
+    ]
+  },
+  "imports": {
+    "@main": "./main.ts",
+    "~/": "./",
+    "~/libs/": "./libs/"
+  }
+}
